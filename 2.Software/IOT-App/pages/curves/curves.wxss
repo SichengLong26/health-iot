@@ -1,0 +1,64 @@
+page {
+  background-color: rgba(239, 239, 240);
+}
+.body{
+  padding: 0rpx 20rpx;
+  margin-top: 100rpx;
+}
+.body-content{
+  background-color:#ffffff;
+  border-radius: 40rpx;
+}
+.body-title{
+  display: flex;
+  justify-content: center;
+  font-size: 30rpx;
+  padding: 50rpx 0rpx 20rpx;
+}
+.meandata-body{
+  padding: 20rpx 39rpx;
+}
+.meandata{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1rpx solid rgba(216, 216, 216, 1);
+  border-top: 1rpx solid rgba(216, 216, 216, 1);
+  padding: 24rpx;
+}
+.canvas {
+  width: 100%;
+  height: 550rpx;
+  
+}
+.timestyle{
+  padding: 50rpx 165rpx;
+}
+
+.detail-title{
+  display: flex;
+}
+
+.data-temp{
+  padding: 19rpx 30rpx;
+}
+.data-hum{
+  padding: 19rpx 30rpx;
+}
+.data-smoke{
+  padding: 19rpx 30rpx;
+}
+.data{
+  display: flex;
+}
+.title-time{
+  padding: 0rpx 0rpx 0rpx 60rpx;
+}
+.title-temp{
+  padding: 0rpx 0rpx 0rpx 111rpx;
+}
+.title-hum{
+  padding: 0rpx 0rpx 0rpx 117rpx;
+}
+.title-smoke{
+  padding: 0rpx 0rpx 0rpx 140rpx;
+}

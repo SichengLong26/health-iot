@@ -1,0 +1,16 @@
+<view class="tabs">
+    <view class="tabs_title">
+        <view class="title_item {{item.isActive?'active':''}}" 
+        wx:for="{{list}}"
+        wx:for-index="index"
+        wx:for-item="item"
+        wx:key="id"
+        bindtap="handleselected" 
+        data-index="{{index}}">{{item.name}}</view>
+    </view>
+    <view class="tabs_content">
+    <!-- 父组件传来的标签会覆盖下面的slot，
+    slot在这里只是作为一个占位符 -->
+    <slot></slot>
+    </view>
+</view>

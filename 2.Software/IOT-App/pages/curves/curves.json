@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "Tabs":"../../components/Tabs/Tabs"
+  },
+  "backgroundTextStyle":"light",
+  "navigationBarBackgroundColor": "#3d7ef6",
+  "navigationBarTitleText": "查看数据",
+    "navigationBarTextStyle":"white"
+}

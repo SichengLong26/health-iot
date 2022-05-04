@@ -1,0 +1,22 @@
+<!--pages/home/home.wxml-->
+<view class="wrapper">
+    <view class="header-wrapper" bindtap="toDetail">
+        <view class="header-title"> 
+            <text>空气质量-{{weather_quality}}</text>
+            <text>{{city}}-{{area}}</text>
+        </view>
+        <view class="header-text">
+            <text>{{weather_temp}}℃</text>
+            <text>{{weather_text}}</text>
+        </view>
+        <view class="weather-advice">
+            <text>{{advice}}</text>
+        </view>
+    </view>
+    <view class="botton-wrapper">
+        <button id="btn1" bindtap="toEnv">环境监测系统</button>
+        <button id="btn2" bindtap="toHealth">健康监测系统</button>
+        <button id="btn2" bindtap="toCanvas">查看实时动态曲线</button>
+    </view>
+</view>
+    

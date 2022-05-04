@@ -1,0 +1,53 @@
+<Tabs list="{{list}}" binditemChange="handleItemChange">
+    <block wx:if="{{list[0].isActive}}" class="tabs"> 
+        <view class="body">
+            <view class="body-content">
+        <view class="body-title">温湿度、烟雾浓度实时曲线图</view>
+            <view class="meandata-body">
+                <view class="meandata">
+                <view>
+                    <view>平均浓度</view>
+                    <view>{{smoke_average}}bpm</view>
+                </view>
+                <view>
+                    <view>平均湿度</view>
+                    <view>{{hum_average}}%</view>
+                </view>
+                <view>  
+                    <view>平均温度</view>
+                    <view>{{temp_average}}℃</view>
+                </view>
+                </view>
+            </view>
+        <canvas canvas-id="lineCanvas" disable-scroll="true" class="canvas" bindtouchstart="touchHandler"></canvas>
+        <view class="timestyle">{{time}}</view>
+            </view>
+        </view>
+    </block>
+    <block wx:elif="{{list[1].isActive}}"> 
+        <view class="detail-title">
+            <view class="title-time">时间</view>
+            <view class="title-temp">温度</view>
+            <view class="title-hum">湿度</view>
+            <view class="title-smoke">烟雾浓度</view>
+        </view>
+        <view class="data">
+            <view class="data-time">
+                <view wx:for="{{time_array}}" wx:key="*this">{{item}}</view>
+            </view>
+            <view class="data-temp">
+                <view wx:for="{{Temp_array}}" wx:key="*this" class="data-temp">{{item}}℃</view>
+            </view>
+            <view class="data-hum">
+                <view wx:for="{{Hum_array}}" wx:key="*this" class="data-hum">{{item}}%</view>
+            </view>
+            <view class="data-smoke">
+                <view wx:for="{{Smoke_array}}" wx:key="*this" class="data-smoke">{{item}}bpm</view>
+        </view>
+        </view>
+    </block>
+
+</Tabs>
+
+
+

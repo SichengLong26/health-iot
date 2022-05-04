@@ -1,0 +1,18 @@
+<view class="body-wrapper">
+    <view class="sensor-others">
+        <image class="sensor-logo-water" src="../../icon/heart.png"/>
+        <view class="sensor-text">
+            <view class="sensor-title">实时心率</view>
+            <view class="sensor-value">{{Heart}}</view>
+        </view>
+    </view>
+</view>
+<view class="body-wrapper">
+    <view class="sensor-others">
+        <image class="sensor-logo-oxygen" src="../../icon/oxygen.png"/>
+        <view class="sensor-text">
+            <view class="sensor-title">血氧浓度</view>
+            <view class="sensor-value">{{Spo2}}%</view>
+        </view>
+    </view>
+</view>

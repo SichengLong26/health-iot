@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/weather/weather",
+    "pages/curves/curves",
+    "pages/index/index",
+    "pages/healthy/healthy",
+    "pages/env/env",
+    "pages/device/device"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+    }
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "智能物联",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icon/_home.png",
+      "selectedIconPath": "icon/home.png"
+    },{
+      "pagePath": "pages/device/device",
+      "text": "设备",
+      "iconPath": "icon/_device.png",
+      "selectedIconPath": "icon/device.png"
+    }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

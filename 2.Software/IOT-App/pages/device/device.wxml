@@ -1,0 +1,26 @@
+<!--pages/device/device.wxml-->
+<view style="display: flex; justify-content: center;font-size: 32rpx;">设备信息</view>
+<view style="padding: 20rpx;">
+    <view class="max30102-body">
+    <image src="../../image/max30102.jpg" class="max30102-logo"/>
+    <view style="padding: 40rpx 70rpx;">心率血氧传感器 Max30102</view>
+</view>
+</view>
+<view style="padding: 20rpx;">
+    <view class="max30102-body">
+    <image src="../../image/dht11.jpg" class="max30102-logo"/>
+    <view style="padding: 40rpx 70rpx;">温湿度传感器 DHT11</view>
+</view>
+</view>
+<view style="padding: 20rpx;">
+    <view class="max30102-body">
+    <image src="../../image/mq2.jpg" class="max30102-logo"/>
+    <view style="padding: 40rpx 70rpx;">烟雾传感器 MQ2</view>
+</view>
+</view>
+<view style="padding: 20rpx;">
+    <view class="max30102-body">
+    <image src="../../image/ESP8266.jpg" class="max30102-logo"/>
+    <view style="padding: 40rpx 70rpx;">WIFI模块 ESP8266</view>
+</view>
+</view>

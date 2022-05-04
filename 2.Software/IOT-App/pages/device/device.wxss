@@ -1,0 +1,12 @@
+/* pages/device/device.wxss */
+.max30102-logo{
+    width: 140rpx;
+    height: 140rpx;
+    border-radius: 25rpx;
+}
+.max30102-body{
+    border-radius: 25rpx;
+    background-color: rgb(231, 231, 231);
+    padding: 30rpx;
+    display: flex;
+}

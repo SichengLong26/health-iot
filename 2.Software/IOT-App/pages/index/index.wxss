@@ -1,0 +1,53 @@
+/* pages/home/home.wxss */
+.wrapper{
+  padding: 30rpx 20rpx;
+  /* background-color: beige; */
+}
+.header-wrapper{
+  background-color: #3d7ef6;
+  border-radius: 40rpx;
+  padding: 30rpx 50rpx;
+  box-shadow: #d6d6d6 1px 1px 1px;
+  color: floralwhite;
+}
+.header-title{
+  display: flex;
+  font-size: 30rpx;
+  justify-content: space-between;
+}
+.header-text{
+  display: flex;
+  font-size: 48rpx;
+  font-weight: 400;
+  padding: 7rpx 0rpx;
+  justify-content: space-between;
+}
+.weather-advice{
+  font-size: 26rpx;
+  margin-top: 50rpx;
+}
+.botton-wrapper{
+  padding: 240rpx 30rpx;
+  
+}
+
+#btn1{
+  height: 70rpx;
+  width: 60% ;
+  color: white;
+  font-size: 30rpx ;
+  background-color: #3d7ef6 ;
+  margin-top: 5rpx;
+  justify-content: center;
+  box-shadow: #d6d6d6 2px 2px 2px;
+}
+#btn2{
+  height: 70rpx;
+  width: 60% ;
+  color: white;
+  font-size: 30rpx ;
+  background-color: #3d7ef6 ;
+  margin-top: 50rpx;
+  justify-content: center;
+  box-shadow: #d6d6d6 2px 2px 2px;
+}
