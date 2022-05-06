@@ -13,3 +13,11 @@
 #### 2.Software：微信小程序上位机程序
 #### 2.Software\IOT-App\components:微信小程序复组件
 #### 2.Software\IOT-App\pages：微信小程序各个页面及功能
+
+### 模块接线
+
+##### DHT11模块： DO - PA15
+
+##### ESP8266模块：TXD - PA3 / RXD - PA2
+
+##### MQ2模块：AO - PC0
