@@ -21,3 +21,4 @@
 ##### ESP8266模块：TXD - PA3 / RXD - PA2
 
 ##### MQ2模块：AO - PC0
+##### MAX30102VCC引脚连接STM32F103mini单片机的5伏引脚，GND连接5伏对应的GND，SCL连PC12，SDA连PC11，INT连PA5。MAX30102的其他引脚没有用到。
